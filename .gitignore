@@ -1,0 +1,4 @@
+mssql-server/backup/*.bak
+mssql-server/backup/*.cer
+mssql-server/backup/*.pvk
+import/csv/*.csv
