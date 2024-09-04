@@ -6,6 +6,7 @@ services:
       - "1433:1433"
     volumes:
       - ./mssql-server/backup:/home/mssql/backup
+      - ./mssql-server/data:/var/opt/mssql/data
     networks:
       mssql-php:
         ipv4_address: 172.19.0.22
