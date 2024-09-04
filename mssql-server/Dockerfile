@@ -4,7 +4,6 @@ FROM mcr.microsoft.com/mssql/server:2022-latest
 COPY ./setup_sql_server.sh /usr/src/app/setup_sql_server.sh
 USER root
 RUN chmod +x /usr/src/app/setup_sql_server.sh
-USER mssql
 
 ENV ACCEPT_EULA=Y
 ENV SA_PASSWORD=12345ABcd
